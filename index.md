@@ -5,7 +5,8 @@ title: Julian Kida's Games Portfolio
 <div class="itch-link">
     <span>
         <img src="/images/itch.png">
-        <a href="{{ include.url }}">Play some games at my itch.io page</a>
+        <a href="https://julian-kida.itch.io">
+        Play some games at my itch.io page</a>
     </span>
 </div>
 
@@ -31,6 +32,13 @@ title: Julian Kida's Games Portfolio
 # More Projects
 
 <div class="project-container">
+    {% include sub-project-box.html 
+    url="/projects/coin-crew" 
+    title="Coin Crew Games" 
+    date="(Spring 2025)" 
+    role="Japanese Localization Consultant"
+    image="/images/coin_crew.png" %}
+
     {% include sub-project-box.html 
     url="/projects/forerunners" 
     title="The Forerunners Gospel" 
